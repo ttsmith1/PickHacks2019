@@ -32,6 +32,6 @@ public class nutrientInfo extends AppCompatActivity {
         //This list contains summary information about the food items
 
         TextView myTextView = findViewById(R.id.textView);
-        myTextView.setText(results.get(0).getDescription());
+        myTextView.setText(results.get(0).getName() + "\n"+ results.get(0).getDescription());
     }
 }
